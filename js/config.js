@@ -16,7 +16,7 @@ const SITE_CONFIG = {
     name: 'AWTV',
     url: 'https://tv.8087.qzz.io',
     description: '免费在线视频搜索与观看平台',
-    logo: 'image/logo.png',
+    logo: 'image/l1ogo.png',
     version: '1.0.3'
 };
 
@@ -25,6 +25,11 @@ const API_SITES = {
     testSource: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/',
         name: 'TT',
+        adult: true
+    }
+    testSource: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/',
+        name: 'RY',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
