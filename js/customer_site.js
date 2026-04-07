@@ -3,10 +3,6 @@ const CUSTOMER_SITES = {
         api: 'https://jszyapi.com/api.php/provide/vod/from/jsm3u8/',
         name: 'JS',
     }
-    RY: {
-        api: 'https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/',
-        name: 'RY',
-    }
 };
 
 // 调用全局方法合并
